@@ -3,6 +3,7 @@ import { CounterContext } from './counterContext';
 
 const Text = () => {
     const [count] = useContext(CounterContext);
+    
     return (
         <div>
            count : {count}
